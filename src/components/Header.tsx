@@ -17,7 +17,6 @@ export function Header() {
   const [searchQuery, setSearchQuery] = useState("")
   const [searchResults, setSearchResults] = useState<typeof products>([])
   const [showResults, setShowResults] = useState(false)
-  const [openDropdown, setOpenDropdown] = useState<string | null>(null)
   const searcto = useRef<HTMLDivElement>(null)
   const router = useNavigate();
 

@@ -1,5 +1,4 @@
-import { Header } from "./Header"
-import { Footer } from "./Footer"
+
 import { Award, Heart, Zap, Users } from "lucide-react"
 
 export default function AboutPage() {

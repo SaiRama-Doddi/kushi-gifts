@@ -1,6 +1,6 @@
 
 
-import { Header } from "./Header"
+
 import { Footer } from "./Footer"
 import { ImageZoom } from "../pages/ImageZoom"
 import { ProductDetails } from "../pages/ProductDetails"
