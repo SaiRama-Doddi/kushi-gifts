@@ -22,12 +22,12 @@ export function ProductAbout({ product }: ProductAboutProps) {
       title: "Product Details",
       content: `Material: ${product.details.material || "Not specified"}\nWeight: ${product.details.weight || "Not specified"}\nSize: ${product.details.size || "Not specified"}`,
     },
-    {
+  /*   {
       id: "shipping",
       title: "Shipping & Returns",
       content:
         "Free shipping on orders above ₹500. Easy 30-day returns. All items are securely packaged and insured during transit.",
-    },
+    }, */
     {
       id: "guarantee",
       title: "Quality Guarantee",
