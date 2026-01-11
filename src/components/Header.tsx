@@ -17,6 +17,7 @@ export function Header() {
   const [searchQuery, setSearchQuery] = useState("")
   const [searchResults, setSearchResults] = useState<typeof products>([])
   const [showResults, setShowResults] = useState(false)
+
   const searcto = useRef<HTMLDivElement>(null)
   const router = useNavigate();
 
@@ -84,14 +85,14 @@ export function Header() {
   }
 
   return (
-    <>
+    <div className="sticky top-0 z-40">
       {/* Top Header */}
       <div className="bg-primary text-primary-foreground py-2 px-4 md:px-8 flex justify-center text-sm">
         <p>Welcome to Luxury Divine Store - Premium Quality Products</p>
       </div>
 
       {/* Main Header */}
-      <header className="sticky top-0 z-40 bg-card border-b border-border shadow-sm">
+      <header className=" bg-card border-b border-border shadow-sm">
         <div className="max-w-7xl mx-auto px-4 md:px-8 py-4">
           <div className="flex items-center justify-between gap-4">
             {/* Logo */}
@@ -273,6 +274,6 @@ export function Header() {
           )}
         </div>
       </header>
-    </>
+    </div>
   )
 }
