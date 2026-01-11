@@ -100,7 +100,7 @@ export function Header() {
   <img
     src="/kushi-logo.png"
     alt="Divine Store Logo"
-    className="h-16 w-auto md:h-20 lg:h-24 object-contain"
+    className="h-16 w-auto md:h-18 lg:h-18 object-contain"
   />
 </Link>
 
