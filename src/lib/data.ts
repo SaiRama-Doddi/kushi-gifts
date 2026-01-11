@@ -27,7 +27,7 @@ export const categories: Category[] = [
   { id: "2", name: "Gifting", slug: "gifting", image: "https://images.herzindagi.info/image/2023/Dec/christmas-gifting.jpg" },
   { id: "3", name: "Pooja Items", slug: "pooja-items", image: "https://ds393qgzrxwzn.cloudfront.net/cat1/img/images/0/vMEvGGbMtx.jpg" },
   { id: "4", name: "Home Decor", slug: "home-decor", image: "https://images.herzindagi.info/image/2023/Dec/christmas-gifting.jpg" },
-    { id: "5", name: "Festival Decor", slug: "festivals-decor", image: "http://eatanytime.in/cdn/shop/articles/Diwali_Gift_Ideas_-_Eat_Anytime-693861.jpg?v=1704714056" },
+/*     { id: "5", name: "Festival Decor", slug: "festivals-decor", image: "http://eatanytime.in/cdn/shop/articles/Diwali_Gift_Ideas_-_Eat_Anytime-693861.jpg?v=1704714056" }, */
 ]
 
 export const products: Product[] = [
