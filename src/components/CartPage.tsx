@@ -42,7 +42,7 @@ export default function CartPage() {
   if (cartItems.length === 0) {
     return (
       <main className="min-h-screen flex flex-col">
-        <Header />
+      
         <div className="flex-1 flex flex-col items-center justify-center max-w-7xl mx-auto w-full px-4">
           <ShoppingBag className="w-24 h-24 text-muted-foreground mb-4" />
           <h1 className="text-3xl font-bold mb-4">Your Cart is Empty</h1>
@@ -53,7 +53,7 @@ export default function CartPage() {
             Continue Shopping
           </Link>
         </div>
-        <Footer />
+  
       </main>
     )
   }

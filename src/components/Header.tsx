@@ -92,7 +92,7 @@ export function Header() {
       </div>
 
       {/* Main Header */}
-      <header className=" bg-card border-b border-border shadow-sm">
+      <header className="bg-linear-to-br from-accent/20 to-accent/5 bg-card border-b border-border shadow-sm">
         <div className="max-w-7xl mx-auto px-4 md:px-8 py-4">
           <div className="flex items-center justify-between gap-4">
             {/* Logo */}
@@ -107,52 +107,140 @@ export function Header() {
 
             {/* Desktop Navigation */}
             <nav className="hidden md:flex items-center gap-8">
+             
+
               <div className="relative group">
-                <button className="text-foreground hover:text-accent transition-colors font-medium flex items-center gap-1">
-                  Gold Idols
-                  <span className="text-xs">▼</span>
-                </button>
-                <div className="absolute left-0 mt-0 w-48 bg-card border border-border rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
-                  <Link to="/products/gold-idols" className="block px-4 py-2 hover:bg-muted first:rounded-t-lg">
-                    Gold Idols
-                  </Link>
-                </div>
-              </div>
+  {/* Button */}
+  <button className="text-foreground hover:text-accent transition-colors font-medium flex items-center gap-1">
+    Personalised Gifts
+    <span className="text-xs">▼</span>
+  </button>
+
+  {/* Dropdown */}
+  <div className="
+    absolute left-0 top-full
+    mt-2 w-56
+    bg-card border border-border rounded-lg shadow-lg
+    opacity-0 invisible
+    group-hover:opacity-100 group-hover:visible
+    transition-all duration-200
+    z-50
+  ">
+    <Link to="/products/mugs" className="block px-4 py-2 hover:bg-muted rounded-t-lg">
+      Mugs
+    </Link>
+
+    <Link to="/products/waterbottles-sippers" className="block px-4 py-2 hover:bg-muted">
+      Waterbottles & Sippers
+    </Link>
+
+    <Link to="/products/photoframes" className="block px-4 py-2 hover:bg-muted">
+      Photoframes
+    </Link>
+
+    <Link to="/products/clocks" className="block px-4 py-2 hover:bg-muted">
+      Clocks
+    </Link>
+
+    <Link to="/products/led-photoframes" className="block px-4 py-2 hover:bg-muted">
+      LED Photoframes
+    </Link>
+
+    <Link to="/products/led-rotating-photoframes" className="block px-4 py-2 hover:bg-muted">
+      LED Rotating Photoframes
+    </Link>
+
+    <Link to="/products/key-chains" className="block px-4 py-2 hover:bg-muted">
+      Key Chains ( Metal / Polymer )
+    </Link>
+
+    <Link to="/products/cushions" className="block px-4 py-2 hover:bg-muted">
+      Cushions
+    </Link>
+
+    <Link to="/products/sash-roll" className="block px-4 py-2 hover:bg-muted">
+      Sash Roll
+    </Link>
+
+    <Link to="/products/mouse-pad" className="block px-4 py-2 hover:bg-muted rounded-b-lg">
+      Mouse Pad
+    </Link>
+  </div>
+</div>
+
+
+         <div className="relative group">
+  {/* Button */}
+  <button className="text-foreground hover:text-accent transition-colors font-medium flex items-center gap-1">
+    Wearables
+    <span className="text-xs">▼</span>
+  </button>
+
+  {/* Dropdown */}
+  <div
+    className="
+      absolute left-0 top-full
+      mt-2 w-56
+      bg-card border border-border rounded-lg shadow-lg
+      opacity-0 invisible
+      group-hover:opacity-100 group-hover:visible
+      transition-all duration-200
+      z-50
+    "
+  >
+    <Link to="/products/t-shirts" className="block px-4 py-2 hover:bg-muted rounded-t-lg">
+      T-Shirts
+    </Link>
+
+    <Link to="/products/oversized-t-shirts" className="block px-4 py-2 hover:bg-muted">
+      Oversized T Shirts
+    </Link>
+
+    <Link to="/products/hoodies" className="block px-4 py-2 hover:bg-muted">
+      Hoodies
+    </Link>
+
+    <Link to="/products/sweatshirts" className="block px-4 py-2 hover:bg-muted">
+      SweatShirts
+    </Link>
+
+    <Link to="/products/collar-zipper" className="block px-4 py-2 hover:bg-muted">
+      Collar Zipper
+    </Link>
+
+    <Link to="/products/track-suits" className="block px-4 py-2 hover:bg-muted">
+      Track Suits
+    </Link>
+
+    <Link to="/products/caps" className="block px-4 py-2 hover:bg-muted rounded-b-lg">
+      Caps
+    </Link>
+  </div>
+</div>
 
               <div className="relative group">
                 <button className="text-foreground hover:text-accent transition-colors font-medium flex items-center gap-1">
-                  Gifting
+                 Magnets
                   <span className="text-xs">▼</span>
                 </button>
-                <div className="absolute left-0 mt-0 w-48 bg-card border border-border rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
-                  <Link to="/products/gifting" className="block px-4 py-2 hover:bg-muted first:rounded-t-lg">
-                    Gifting Collections
-                  </Link>
-                </div>
-              </div>
-
-              <div className="relative group">
-                <button className="text-foreground hover:text-accent transition-colors font-medium flex items-center gap-1">
-                  Pooja Items
-                  <span className="text-xs">▼</span>
-                </button>
-                <div className="absolute left-0 mt-0 w-48 bg-card border border-border rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
-                  <Link to="/products/pooja-items" className="block px-4 py-2 hover:bg-muted first:rounded-t-lg">
-                    Pooja Items
-                  </Link>
-                </div>
-              </div>
-
-              <div className="relative group">
-                <button className="text-foreground hover:text-accent transition-colors font-medium flex items-center gap-1">
-                  Home Decor
-                  <span className="text-xs">▼</span>
-                </button>
-                <div className="absolute left-0 mt-0 w-48 bg-card border border-border rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
-                  <Link to="/products/home-decor" className="block px-4 py-2 hover:bg-muted first:rounded-t-lg">
-                    Home Decor
-                  </Link>
-                </div>
+                 <div
+    className="
+      absolute left-0 top-full
+      mt-2 w-56
+      bg-card border border-border rounded-lg shadow-lg
+      opacity-0 invisible
+      group-hover:opacity-100 group-hover:visible
+      transition-all duration-200
+      z-50
+    "
+  >
+    <Link to="/products/personalized" className="block px-4 py-2 hover:bg-muted rounded-t-lg">
+     Personalized
+    </Link>
+      <Link to="/products/funky" className="block px-4 py-2 hover:bg-muted rounded-t-lg">
+  ⁠Funky
+    </Link>
+    </div>
               </div>
 
               <Link to="/about" className="text-foreground hover:text-accent transition-colors font-medium">

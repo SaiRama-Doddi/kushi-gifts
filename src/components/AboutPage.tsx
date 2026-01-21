@@ -59,7 +59,7 @@ export default function AboutPage() {
                 Our commitment to quality and customer satisfaction has made us a trusted name in the industry.
               </p>
             </div>
-            <div className="bg-gradient-to-br from-accent/20 to-accent/5 rounded-lg p-8 border border-accent/30">
+            <div className="bg-linear-to-br from-accent/20 to-accent/5 rounded-lg p-8 border border-accent/30">
               <h3 className="text-2xl font-bold mb-6 text-center gold-text">By The Numbers</h3>
               <div className="space-y-4">
                 <div className="text-center">
